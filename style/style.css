@@ -1,8 +1,20 @@
+
 html
 {
     width: 100%;
     height: 100%;
 }
+@font-face
+{
+    font-family: "RobotoB";
+    src: local("Roboto-Bold.ttf"), url("fonts/roboto-bold.ttf");
+}
+@font-face
+{
+    font-family: "RobotoR";
+    src: local("Roboto-Regular.ttf"), url("fonts/Roboto-Regular.ttf");
+}
+body{ background-color: #292861;}
 *
 {
     box-sizing: border-box;
@@ -14,37 +26,92 @@ html
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(-45deg, #da0000, #da0000, #000000, #000000);
+    background-image: linear-gradient(-45deg, #b30505, #4b0707, #250202, #000000);
     margin: 0 auto;
-    width: 100vh;
-    height: 45vh;
-    gap: 30px;
+    width: 400px;
+    height: 50vh;
+    gap: 10px;
 }
 #foto-perfil
 {
+    border: 2px solid #FFF;
+    margin-top: 30px;
     width: 100px;
     border-radius: 50%;
+    box-shadow: 10px 5px 50px #000000;
 }
 nav
 {
 display: flex;
 flex-wrap: nowrap;
-gap: 50px;
+border: 1px solid #FFF;
+width: 100%;
+height: 11vh;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 13px;
+
 }
 div.item-contact
 {
-    color: white;
-    width: 50px;
-    height: 40px;
+    /* background-color: #292861; */
+    border: 1px solid #FFF;
+    color: #FFF;
+    width: 188px;
+    height: 11vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    flex-wrap: nowrap;
 }
-object.address
+
+svg.call-email-address
 {
-    fill: white;
-    width: 40px;
-    height: 40px;
+    fill: #FFF;
+    width: 30px;
+    height: 30px;
+}
+span.acoes
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#general-info
+{
+    margin: 0 auto;
+    width: 400px;
+    height: 100vh;
+    background-color: #cac7c7;
+}
+span#name
+{
+    color: rgb(230, 229, 229);
+    font-family: RobotoBold, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+span#company-position
+{
+    text-align: center;
+    color:rgb(230, 229, 229);
+    font-family: RobotoLight, sans-serif;
+    font-size: 12px;
+}
+div#general-info
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: right;
+}
+div.item-info
+{
+    font-family: RobotoR;
+    display: flex;
+    height: 50px;
+    width: 80%;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+
 }
