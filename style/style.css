@@ -186,13 +186,13 @@ div#share-by
 {
     position: fixed;
     top: 80%;
-    left: 83%;
+    left: 84%;
 }
 div#add-to
 {
     position: fixed;
     top: 90%;
-    left: 83%;
+    left: 84%;
 }
 /* ===========================================  Desktop  ======================================================== */
 @media (min-width: 380px)
