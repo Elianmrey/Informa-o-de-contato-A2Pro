@@ -24,7 +24,7 @@ html
     align-items: center;
     background-image: linear-gradient(-45deg, #b30505, #4b0707, #250202, #000000);
     margin: 0 auto;
-    width: 400px;
+    width: 375px;
     height: 50vh;
     gap: 10px;
     border-top-right-radius: 30px;
@@ -108,7 +108,7 @@ span#company-position
 div#general-info
 {
     margin: 0 auto;
-    width: 400px;
+    width: 375px;
     height: 65vh;
     background-color: #e0dfdf;
     display: flex;
