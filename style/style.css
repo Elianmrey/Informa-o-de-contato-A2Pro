@@ -6,13 +6,9 @@ html
 }
 @font-face
 {
-    font-family: "RobotoB";
-    src: local("Roboto-Bold.ttf"), url("fonts/roboto-bold.ttf");
-}
-@font-face
-{
     font-family: "RobotoR";
-    src: local("Roboto-Regular.ttf"), url("fonts/Roboto-Regular.ttf");
+    src: local("RobotoR"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+    
 }
 body{ background-color: #292861;}
 *
@@ -87,17 +83,23 @@ span.acoes
 span#name
 {
     color: rgb(230, 229, 229);
-    font-family: RobotoBold, sans-serif;
-    font-weight: 600;
+    font-family: RobotoR;
+    font-weight: bold;
     font-size: 15px;
 }
 span#company-position
 {
     text-align: center;
     color:rgb(230, 229, 229);
-    font-family: RobotoLight, sans-serif;
+    font-family: RobotoR;
     font-size: 12px;
 }
+ div#conteiner
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+} 
 div#general-info
 {
     display: flex;
@@ -105,13 +107,23 @@ div#general-info
     flex-wrap: nowrap;
     justify-content: right;
 }
+div#icons
+{
+    display: flex;
+    flex-direction: column;
+}
+svg.item-icons
+{
+    width: 40px;
+    height: 40px;
+    fill: #4e4b4b;
+}
 div.item-info
 {
     font-family: RobotoR;
     display: flex;
-    height: 50px;
+    height: 80px;
     width: 80%;
     border-bottom: 1px solid lightgrey;
     align-items: center;
-
 }
