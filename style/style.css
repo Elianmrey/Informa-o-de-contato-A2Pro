@@ -10,7 +10,7 @@ html
     src: local("RobotoR"), url("../fonts/Roboto-Regular.ttf") format("truetype");
     
 }
-body{ background-color: #292861;}
+/* body{ background-color: #292861;} */
 *
 {
     box-sizing: border-box;
@@ -27,6 +27,9 @@ body{ background-color: #292861;}
     width: 400px;
     height: 50vh;
     gap: 10px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 5px 10px 50px grey;
 }
 #foto-perfil
 {
@@ -38,20 +41,21 @@ body{ background-color: #292861;}
 }
 nav
 {
+margin-top: 40px;
 display: flex;
 flex-wrap: nowrap;
-border: 1px solid #FFF;
+border-top: 1px solid #FFF;
 width: 100%;
 height: 11vh;
 justify-content: space-evenly;
 align-items: center;
-margin-top: 13px;
+
 
 }
 div.item-contact
 {
     /* background-color: #292861; */
-    border: 1px solid #FFF;
+    
     color: #FFF;
     width: 188px;
     height: 11vh;
@@ -61,7 +65,14 @@ div.item-contact
     justify-content: center;
     flex-wrap: nowrap;
 }
-
+div.item-contact:first-child
+{
+    border-right: 1px solid #FFF;
+}
+div.item-contact:last-child
+{
+    border-left: 1px solid #FFF;
+}
 svg.call-email-address
 {
     fill: #FFF;
@@ -73,13 +84,7 @@ span.acoes
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#general-info
-{
-    margin: 0 auto;
-    width: 400px;
-    height: 100vh;
-    background-color: #cac7c7;
-}
+
 span#name
 {
     color: rgb(230, 229, 229);
@@ -102,15 +107,30 @@ span#company-position
 } 
 div#general-info
 {
+    margin: 0 auto;
+    width: 400px;
+    height: 65vh;
+    background-color: #e0dfdf;
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: right;
+    box-shadow: 5px 10px 50px grey;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+div#info-content
+{
+    width: 400px;
 }
 div#icons
 {
+    justify-content: space-evenly;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    width: 80px;
+    height:400px;
+    gap: 20px;
+    
 }
 svg.item-icons
 {
@@ -120,10 +140,22 @@ svg.item-icons
 }
 div.item-info
 {
-    font-family: RobotoR;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: RobotoR;
     height: 80px;
-    width: 80%;
-    border-bottom: 1px solid lightgrey;
-    align-items: center;
+    width: 280;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-bottom: 1px solid #aaa7a7;
+}
+div.item-info:last-child
+{
+    border-bottom: none;
+}
+span.title-info-card
+{
+font-family: RobotoR, sans-serif;
+font-size: 15px;
 }
