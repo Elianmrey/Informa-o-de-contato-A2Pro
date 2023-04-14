@@ -147,7 +147,6 @@ div.item-info
     height: 80px;
     width: 280;
     margin-top: 20px;
-    margin-left: 10px;
     border-bottom: 1px solid #aaa7a7;
 }
 div.item-info:last-child
@@ -194,6 +193,35 @@ div#add-to
     top: 90%;
     left: 85%;
 }
+main
+{
+    display: block;
+}
+div#maps
+{
+    border: 1px solid lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+    width: 375px;
+
+}
+a.links
+{
+    text-decoration: none;
+    color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
 /* ===========================================  Desktop  ======================================================== */
 @media (min-width: 500px)
 {
