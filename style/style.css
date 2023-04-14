@@ -185,14 +185,14 @@ svg.iconsadd
 div#share-by
 {
     position: fixed;
-    top: 80%;
-    left: 84%;
+    top: 78%;
+    left: 88vh;
 }
 div#add-to
 {
     position: fixed;
-    top: 90%;
-    left: 84%;
+    top: 88%;
+    left: 88vh;
 }
 /* ===========================================  Desktop  ======================================================== */
 @media (min-width: 380px)
