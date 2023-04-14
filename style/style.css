@@ -185,17 +185,17 @@ svg.iconsadd
 div#share-by
 {
     position: fixed;
-    top: 78%;
-    left: 88vh;
+    top: 80%;
+    left: 75%;
 }
 div#add-to
 {
     position: fixed;
-    top: 88%;
-    left: 88vh;
+    top: 90%;
+    left: 75%;
 }
 /* ===========================================  Desktop  ======================================================== */
-@media (min-width: 380px)
+@media (min-width: 500px)
 {
     body
     {
@@ -204,14 +204,10 @@ div#add-to
     }
     div#share-by
     {
-    position: fixed;
-    top: 80%;
     left: 60%;
     }
 div#add-to
 {
-    position: fixed;
-    top: 90%;
-    left: 60%;
+  left: 60%;
 }
 }
