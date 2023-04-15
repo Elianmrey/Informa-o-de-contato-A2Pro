@@ -144,11 +144,14 @@ a.icones-laterais
 {
      padding: 33px 11px;
 }
-a.icones-laterais:hover, :active
+a.icones-laterais:hover
 {
    background-color: #1E1E1E;
 }
-   
+a.icones-laterais:active
+{
+   background-color: #1E1E1E;
+}
 
 div.item-info
 {
