@@ -193,19 +193,16 @@ div#add-to
     top: 90%;
     left: 85%;
 }
-main
-{
-    display: block;
-}
+
 div#maps
 {
-    border: 1px solid lightblue;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin: 0 auto;
     width: 375px;
+    
 
 }
 a.links
@@ -218,7 +215,21 @@ a.links
     margin-left: 10px;
 }
 
-
+#iframap
+{
+    display: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#mostramap
+{
+    background-color: #1E1E1E;
+    color: #FFF;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20px;
+}
 
 
 
