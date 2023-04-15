@@ -169,6 +169,7 @@ span.title-info-card
 font-family: RobotoR, sans-serif;
 font-size: 15px;
 }
+
 div#button-add-user
 {
   border-radius: 50%;
@@ -221,12 +222,16 @@ a.links-inf-ger
     padding: 25px;
     justify-content:space-evenly;
 }
-a.links-inf-ger:hover, :active
+a.links-inf-ger:hover
 {
     background-color: #1E1E1E;
     color: #FFF;
 }
-
+a.links-inf-ger:active
+{
+    background-color: #1E1E1E;
+    color: #FFF;
+}
 a.cabeceira
 {
     text-decoration: none;
@@ -246,7 +251,6 @@ a.cabeceira:hover
     background-color: #1E1E1E;
     
 }
-
 
 
 #iframap
