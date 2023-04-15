@@ -144,10 +144,12 @@ a.icones-laterais
 {
      padding: 33px 11px;
 }
-a.icones-laterais:hover
+a.icones-laterais:hover, :active
 {
    background-color: #1E1E1E;
 }
+   
+
 div.item-info
 {
     display: flex;
@@ -210,42 +212,42 @@ div#maps
     margin: 0 auto;
     width: 375px;
 }
-a.links
+a.links-inf-ger
 {
-    background-color: lightskyblue;
-    text-decoration: none;
+     text-decoration: none;
     color: #1E1E1E;
     display: flex;
     flex-direction: column;
     padding: 25px;
     justify-content:space-evenly;
-
 }
+a.links-inf-ger:hover, :active
+{
+    background-color: #1E1E1E;
+    color: #FFF;
+}
+
 a.cabeceira
 {
     text-decoration: none;
-    color: #ffffff;
+    color: #FFF;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
     justify-content: center;
-    
+    padding:  4px 35px;
+
 }
 
 a.cabeceira:hover
 {
     color: #FFF;
     background-color: #1E1E1E;
-    padding-left: 33px;
-    padding-right: 33px;
+    
 }
 
-a:active
-{
-    color: #FFF;
-    background-color: #4e4b4b;
-}
+
 
 #iframap
 {
