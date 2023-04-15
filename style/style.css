@@ -26,9 +26,6 @@ html
     margin: 0 auto;
     width: 375px;
     height: 100%;
-    gap: 10px;
-    /* border-top-right-radius: 30px;
-    border-top-left-radius: 30px; */
     box-shadow: 5px 10px 50px rgb(0, 0, 0);
 }
 #foto-perfil
@@ -54,8 +51,6 @@ align-items: center;
 }
 div.item-contact
 {
-    /* background-color: #292861; */
-    
     color: #FFF;
     width: 188px;
     height: 11vh;
@@ -71,7 +66,7 @@ div.item-contact:first-child
 }
 div.item-contact:last-child
 {
-    border-left: 1px solid #FFF;
+    border-left: 1px solid #FFF
 }
 svg.call-email-address
 {
@@ -107,6 +102,7 @@ span#company-position
 } 
 div#general-info
 {
+    justify-content: space-evenly ;
     margin: 0 auto;
     width: 375px;
     height: 100%;
@@ -120,6 +116,7 @@ div#general-info
 div#info-content
 {
     width: 400px;
+    padding: 0;
 }
 div#icons
 {
@@ -128,14 +125,13 @@ div#icons
     display: flex;
     flex-direction: column;
     width: 80px;
-    height:400px;
-    gap: 20px;
-    
-}
+    height: 400px;
+ }
+
 svg.item-icons
 {
-    width: 40px;
-    height: 40px;
+     width: 40px;
+    height: 30px;
     fill: #4e4b4b;
 }
 div.item-info
@@ -144,9 +140,8 @@ div.item-info
     flex-direction: column;
     justify-content: space-evenly;
     font-family: RobotoR;
-    height: 80px;
-    width: 280;
-    margin-top: 20px;
+    height: 100px;
+    width: 280px;
     border-bottom: 1px solid #aaa7a7;
 }
 div.item-info:last-child
@@ -167,7 +162,6 @@ div#button-add-user
 }
 div.button-share
 {
-   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,23 +190,22 @@ div#add-to
 
 div#maps
 {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     width: 375px;
-    
-
 }
 a.links
 {
+    background-color: lightskyblue;
     text-decoration: none;
     color: #1E1E1E;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-left: 10px;padding: 0;
+    padding: 25px;
+    justify-content:space-evenly;
+
 }
 a.cabeceira
 {
@@ -225,11 +218,18 @@ a.cabeceira
     justify-content: center;
     
 }
-a:hover
-{background-color: #1E1E1E;}
+
+a.cabeceira:hover
+{
+    color: #FFF;
+    background-color: #1E1E1E;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
 a:active
 {
-    padding: 5px;
+    color: #FFF;
     background-color: #4e4b4b;
 }
 
