@@ -183,7 +183,7 @@ div#button-add-user
   width: 40px;
   height: 40px;
 }
-div.button-share
+button.button-share
 {
     display: flex;
     align-items: center;
@@ -198,16 +198,16 @@ svg.iconsadd
     width: 20px;
 }
 
-div#share-by
+button#share-by
 {
-    position: fixed;
-    top: 75%;
+    position: absolute;
+    top: 81%;
     left: 85%;
 }
-div#add-to
+button#add-to
 {
-    position: fixed;
-    top: 85%;
+    position: absolute;
+    top: 90%;
     left: 85%;
 }
 
@@ -287,12 +287,12 @@ a.cabeceira:hover
     background-image: linear-gradient(180deg, #b30505, #4b0707, #250202, #000000);
     background-origin: content-box;
     }
-    div#share-by
+    button#share-by
     {
     left: 60%;
     }
-div#add-to
-{
-  left: 60%;
-}
+        button#add-to
+        {
+        left: 60%;
+        }
 }
