@@ -25,19 +25,17 @@ buttonClicked.addEventListener("click", () => {
 /*======================Botão compartilhar  contato===================================*/
 
 document.querySelector("#share-by").addEventListener("click", () =>{
-    if ('contacts' in navigator)
-    {
-        navigator.contacts.select(['Suporte Tecnico A2Pro', '+558596861306']).then((contacts) =>{
-            navigator.share({
-                title: "compartilhar Contato",
-                text: "Suporte Tecnico A2Pro",
-                contacts: contacts
-            });
-        
-        });
-         }else{
-            alert('API "WEB Contacts" avegador não suportada pelo navegador');
-         }
+   let vcard = new VCard;
+   vcard.firstName = 'Suporte Técnico'
+   vcard.lastName = 'A2pro Tec Automotiva'
+ const content = vcard.getFormattedString();
+ const blob = new Blob([content], {type: 'text/vcard'});
+
+ navigator.share({
+    title: "Compartilhar Contato Suporte Técnico",
+    text: "A2Pro Tecnologia Automotiva",
+    contacts: [blob]
+ })
 })
 
 
