@@ -27,6 +27,7 @@ html
     width: 375px;
     height: 100%;
     box-shadow: 5px 10px 50px rgb(0, 0, 0);
+   
 }
 #foto-perfil
 {
@@ -86,6 +87,7 @@ span#name
     font-family: RobotoR;
     font-weight: bold;
     font-size: 15px;
+    margin-top: 15px;
 }
 span#company-position
 {
@@ -93,6 +95,7 @@ span#company-position
     color:rgb(230, 229, 229);
     font-family: RobotoR;
     font-size: 12px;
+    margin-top: 10px;
 }
  div#conteiner
 {
@@ -198,13 +201,13 @@ svg.iconsadd
 div#share-by
 {
     position: fixed;
-    top: 80%;
+    top: 75%;
     left: 85%;
 }
 div#add-to
 {
     position: fixed;
-    top: 90%;
+    top: 85%;
     left: 85%;
 }
 
