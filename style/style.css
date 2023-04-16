@@ -160,7 +160,7 @@ div.item-info
     justify-content: space-evenly;
     font-family: RobotoR;
     height: 100px;
-    width: 280px;
+    width: 310px;
     border-bottom: 1px solid #aaa7a7;
 }
 div.item-info:last-child
@@ -225,6 +225,7 @@ a.links-inf-ger
     padding: 25px;
     justify-content:space-evenly;
 }
+
 a.links-inf-ger:hover
 {
     background-color: #1E1E1E;
@@ -244,7 +245,7 @@ a.cabeceira
     gap: 10px;
     align-items: center;
     justify-content: center;
-    padding:  4px 35px;
+    padding:  7px 35px;
 
 }
 
